@@ -1,2 +1,0 @@
-File âm thanh cần chuyển sang định dạng mp3.
-khi build để Orietantion sang đúng định dạng.
