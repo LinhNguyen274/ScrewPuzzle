@@ -163,9 +163,11 @@ function rewardedCallbacks(obj) {
         console.log('onAdLoadFailed Rewarded CALLBACK', data);
         if (obj.adUnitName === replayObj.adUnitName) {
             is_replay_noFill = true
+            window.resumeSound();
         }
         if (obj.adUnitName === rewardObj.adUnitName) {
-            is_rewarded_noFill = true
+            is_rewarded_noFill = true;
+            window.resumeSound();
         }
 
 
